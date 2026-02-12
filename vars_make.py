@@ -25,6 +25,6 @@ perimeter_rectangle = (length_of_rectangle * 2) + (width_of_rectangle * 2)
 perimeter_octagon = (side_length_octagon * 8)
 
 # Output.
-print(f"The Circle has an Area of {area_circle} and a Perimeter of {perimeter_circle}")
-print(f"The Rectangle has an Area of {area_rectangle} and a Perimeter of {perimeter_rectangle}")
-print(f"The Octagon has an Area of {area_octagon} and a Perimeter of {perimeter_octagon}")
+print(f"The circle has an area of {area_circle} and a perimeter of {perimeter_circle}")
+print(f"The rectangle has an area of {area_rectangle} and a perimeter of {perimeter_rectangle}")
+print(f"The octagon has an area of {area_octagon} and a perimeter of {perimeter_octagon}")
