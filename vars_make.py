@@ -12,17 +12,15 @@ side_length_octagon = int(input("Please enter the Side Length of the Octagon: ")
 
 # Import
 import math
-pie = math.pi
-s = math.sqrt
 
 # Processing
 # Area
-area_circle = (radius_of_circle**2) * pie
-area_rectangle = (length_of_rectangle*width_of_rectangle)
-area_octagon = 2 * (side_length_octagon**2) * (1+s(2))
+area_circle = (radius_of_circle**2) * math.pi
+area_rectangle = length_of_rectangle*width_of_rectangle
+area_octagon = 2 * (side_length_octagon**2) * (1+math.sqrt(2))
 
 #Perimeter
-perimeter_circle = (radius_of_circle * 2 * pie)
+perimeter_circle = (radius_of_circle * 2 * math.pi)
 perimeter_rectangle = (length_of_rectangle * 2) + (width_of_rectangle * 2)
 perimeter_octagon = (side_length_octagon * 8)
 
