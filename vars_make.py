@@ -1,7 +1,8 @@
-#Header Comments
-#Aiden Amparo
-#Feburary 12 2026
-#Make Variables
+"""Header Comments
+author: Aiden 
+date: Feburary 12 2026
+Make Variables
+""" 
 
 #Input
 radius_of_circle = int(input("Please enter the Radius of the Circle: "))
